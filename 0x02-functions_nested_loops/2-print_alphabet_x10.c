@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10: - Check main
- * Description: funtion to print letters of the alphabet 10 times
+ * description: funtion to print letters of the alphabet 10 times
  * using _putchar
  * Return: Nothing
  */
