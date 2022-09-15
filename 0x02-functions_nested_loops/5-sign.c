@@ -2,13 +2,12 @@
 
 /**
  * print_sign - check main
- * @c: An input number
+ * @n: An input integer number
  * Description: function checks for sign of integer
  * Return: 1, 0 or -1 
  */
 int print_sign(int n)
 {
-	
 	int number;
 
 	if (n > 0)
@@ -27,7 +26,5 @@ int print_sign(int n)
 		number = -1;
 		_putchar('-');
 	}
-
-
 	return (number);
 }
