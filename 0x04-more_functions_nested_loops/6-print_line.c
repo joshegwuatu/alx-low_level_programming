@@ -1,8 +1,8 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * print_line
- *@n: lenght of line
+ * @n: lenght of line
  * Description: function that prints line to n lenght
  * Return: Nothing
  */
@@ -10,12 +10,12 @@ nclude "main.h"
 void print_line(int n)
 {
 	int i = 0;
-	char line ='_';
+
 	if ( n > 0 )
 	{
 		for (; i < n; i++)
 		{
-			_putchar( line );
+			_putchar( '_' );
 		
 		}	
 	}
